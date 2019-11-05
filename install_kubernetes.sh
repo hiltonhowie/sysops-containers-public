@@ -1,5 +1,6 @@
 #!/bin/bash
 
 # Install prerequisites
- yum -y install git
+ yum -y install bash-completion
+ kubectl completion bash >/etc/bash_completion.d/kubectl
 
