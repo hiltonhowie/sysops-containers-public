@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Install prerequisites
- yum - y install git
+ yum -y install git
 
